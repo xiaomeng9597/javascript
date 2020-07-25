@@ -1,1 +1,1 @@
-alert("程序异常");
+alert("Hello, world!");

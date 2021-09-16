@@ -3,3 +3,4 @@ String.prototype.sj=function(val,val2){try{var reg=new RegExp(val+"(.*?)"+val2);
 
 var str="我是一个字符串演示啊";
 alert(str.sj("是","演")); //输出 “一个字符串”
+

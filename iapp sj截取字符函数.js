@@ -5,7 +5,7 @@ String.prototype.sj = function(val, val2) {
         if (typeof(JSON.parse(getval)) == "object") {
             return JSON.parse(getval)
         } else {
-            return getval;
+            return getval
         }
     } catch (err) {
         if (getval) {
